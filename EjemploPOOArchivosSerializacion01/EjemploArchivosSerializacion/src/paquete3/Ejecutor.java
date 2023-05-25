@@ -32,9 +32,9 @@ public class Ejecutor {
         EscrituraArchivoSecuencial archivo = new
          EscrituraArchivoSecuencial(nombreArchivo);
 
-        for (int i = 0; i < lista.length; i++) {
+        for (Calificacion lista1 : lista) {
             // establecer el valor del atributo registro
-            archivo.establecerRegistro(lista[i]);
+            archivo.establecerRegistro(lista1);
             // establecer en el archivo el atributo del registro
             archivo.establecerSalida();
         }

@@ -15,4 +15,5 @@ public class Hospital implements Serializable{
     String nombre;
     int numeroCamas;
     double presupuesto;
+    Ciudad ciudad;
 }
